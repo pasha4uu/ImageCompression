@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *normalImageV;
 
+@property (weak, nonatomic) IBOutlet UIImageView *lessCompressImageV;
+
+@property (weak, nonatomic) IBOutlet UIImageView *compressImageV;
 @end
 

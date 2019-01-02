@@ -15,6 +15,8 @@
 		657448DC21DC8651007287CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657448DB21DC8651007287CB /* main.m */; };
 		657448E621DC8651007287CB /* ImageCompressionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657448E521DC8651007287CB /* ImageCompressionTests.m */; };
 		657448F121DC8651007287CB /* ImageCompressionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657448F021DC8651007287CB /* ImageCompressionUITests.m */; };
+		657448FF21DC8720007287CB /* pppv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657448FE21DC871F007287CB /* pppv.jpg */; };
+		6574490121DC8A59007287CB /* plp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6574490021DC8A59007287CB /* plp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		657448EC21DC8651007287CB /* ImageCompressionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCompressionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		657448F021DC8651007287CB /* ImageCompressionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCompressionUITests.m; sourceTree = "<group>"; };
 		657448F221DC8651007287CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657448FE21DC871F007287CB /* pppv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pppv.jpg; sourceTree = "<group>"; };
+		6574490021DC8A59007287CB /* plp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		657448CB21DC8650007287CB /* ImageCompression */ = {
 			isa = PBXGroup;
 			children = (
+				6574490021DC8A59007287CB /* plp.jpg */,
+				657448FE21DC871F007287CB /* pppv.jpg */,
 				657448CC21DC8650007287CB /* AppDelegate.h */,
 				657448CD21DC8650007287CB /* AppDelegate.m */,
 				657448CF21DC8650007287CB /* ViewController.h */,
@@ -236,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				657448D921DC8651007287CB /* LaunchScreen.storyboard in Resources */,
+				657448FF21DC8720007287CB /* pppv.jpg in Resources */,
 				657448D621DC8651007287CB /* Assets.xcassets in Resources */,
+				6574490121DC8A59007287CB /* plp.jpg in Resources */,
 				657448D421DC8650007287CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
